@@ -3,8 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio-sneh-patel/',
-  optimizeDeps: {
-    exclude: ['lucide-react'],
+  build: {
+    outDir: 'build', // Ensure the output directory matches your deploy script
   },
 });
