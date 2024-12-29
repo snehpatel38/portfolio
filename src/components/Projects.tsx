@@ -12,34 +12,34 @@ import {
 
 const projects = [
   {
-    title: "Text-to-Image Generation",
+    title: "AI-Powered Solution for Assisting Visually Impaired Individuals",
     description:
-      "Advanced image generation pipeline using Stable Diffusion XL and LoRA weights to create high-quality images from text prompts.",
+      " AI-powered visual assistance app to aid visually impaired individuals by analyzing images and providing - time scene descriptions, object detection, and text extraction. ",
     icon: Image,
-    github: "https://github.com/snehpatel38/",
-    live: "#",
-    tags: ["PyTorch", "Hugging Face", "Diffusers", "SDXL"],
-    image: "src/assets/projects/1.jpg",
+    github: "https://github.com/snehpatel38/AI-Powered-Solution-for-Assisting-Visually-Impaired-Individuals",
+    live: "https://github.com/snehpatel38/AI-Powered-Solution-for-Assisting-Visually-Impaired-Individuals",
+    tags: ["Pytesseract", "CV2", "Streamlit"],
+    image: "src/assets/projects/1.png",
   },
   {
-    title: "Automated Text Correction Tool",
+    title: "Workout Recommendation System",
     description:
-      "Python-based tool for automatic typo correction, casing adjustment, and punctuation refinement using Mistral AI model.",
+      "Personalized fitness recommendation system using machine learning algorithms to create tailored workout plans based on user profiles. ",
     icon: Bot,
-    github: "https://github.com/snehpatel38",
-    live: "#",
-    tags: ["Mistral AI", "Python", "OLLAMA API"],
-    image: "src/assets/projects/2.jpg",
+    github: "https://github.com/snehpatel38/workout_recommendation_system",
+    live: "https://github.com/snehpatel38/workout_recommendation_system",
+    tags: ["Flask", "Docker", "Scikit-learn"],
+    image: "src/assets/projects/2.png",
   },
   {
-    title: "AI-Powered Flappy Bird",
+    title: "Bank Loan Report Dashboard",
     description:
-      "Developed an AI-driven Flappy Bird game using the NEAT algorithm for evolving neural networks with optimized gameplay performance.",
+      "Analyze and visualize key KPI metrics for bank loan performance.",
     icon: Brain,
-    github: "https://github.com/snehpatel38/flappy-bird-ai",
-    live: "#",
+    github: "https://public.tableau.com/app/profile/sneh.patel1713/viz/BANKLOANREPORT_17351315753900/DETAILS?publish=yes",
+    live: "https://public.tableau.com/app/profile/sneh.patel1713/viz/BANKLOANREPORT_17351315753900/DETAILS?publish=yes",
     tags: ["Pygame", "NEAT", "Neural Networks"],
-    image: "src/assets/projects/3.jpg",
+    image: "src/assets/projects/3.png",
   },
   {
     title: "AI Code Reviewer",
