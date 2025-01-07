@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-gray-900/95 backdrop-blur-md py-4' : 'bg-transparent py-6'
+        scrolled ? 'bg-gray-900/95 backdrop-blur-md py-4 shadow-md' : 'bg-transparent py-6'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
@@ -40,13 +40,13 @@ const Navbar: React.FC = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <span className="text-blue-400">S</span>neh
+          <span className="text-blue-500">S</span>neh
         </motion.a>
 
         {/* Mobile Menu Button */}
         <motion.button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-white p-2 hover:bg-gray-800 rounded-lg"
+          className="md:hidden text-white p-2 hover:bg-blue-500/20 rounded-lg"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
                   href={item.href}
                   className={`text-sm font-medium transition-colors relative ${
                     activeSection === item.href.slice(1) 
-                      ? 'text-blue-400' 
+                      ? 'text-blue-500' 
                       : 'text-gray-300 hover:text-white'
                   }`}
                   onClick={() => setActiveSection(item.href.slice(1))}
@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
                   {item.name}
                   {activeSection === item.href.slice(1) && (
                     <motion.div
-                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-blue-400"
+                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-blue-500"
                       layoutId="underline"
                     />
                   )}
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu */}
         <motion.div
-          className={`md:hidden absolute top-full left-0 right-0 bg-gray-900/95 backdrop-blur-md ${
+          className={`md:hidden absolute top-full left-0 right-0 bg-gray-900/95 backdrop-blur-md shadow-md ${
             isOpen ? 'block' : 'hidden'
           }`}
           initial={{ opacity: 0, y: -20 }}
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
                   href={item.href}
                   className={`block text-sm font-medium transition-colors ${
                     activeSection === item.href.slice(1)
-                      ? 'text-blue-400'
+                      ? 'text-blue-500'
                       : 'text-gray-300 hover:text-white'
                   }`}
                   onClick={() => {

@@ -32,14 +32,13 @@ const projects = [
     image: "src/assets/projects/2.png",
   },
   {
-    title: "Bank Loan Report Dashboard",
+    title: "Brain Tumor Classification",
     description:
-      "Analyze and visualize key KPI metrics for bank loan performance.",
+      "Engineered a deep learning-based tumor classification model",
     icon: Brain,
-    github: "https://public.tableau.com/app/profile/sneh.patel1713/viz/BANKLOANREPORT_17351315753900/DETAILS?publish=yes",
-    live: "https://public.tableau.com/app/profile/sneh.patel1713/viz/BANKLOANREPORT_17351315753900/DETAILS?publish=yes",
+    live: "https://colab.research.google.com/drive/1VmTjAgV82EvA3BmArUQe_e_3p4m9Bbx8?usp=sharing",
     tags: ["Pygame", "NEAT", "Neural Networks"],
-    image: "src/assets/projects/3.png",
+    image: "src/assets/projects/Anaplastic_astrocytoma.png",
   },
   {
     title: "AI Code Reviewer",
@@ -108,7 +107,7 @@ interface Project {
   title: string;
   description: string;
   icon: LucideIcon;
-  github: string;
+  github?: string;
   live: string;
   tags: string[];
   image: string;

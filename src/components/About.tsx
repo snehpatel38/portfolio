@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-12 sm:py-16 md:py-20 relative overflow-hidden bg-gradient-to-br from-gray-900 to-navy-800"
+      className="py-20 relative overflow-hidden bg-gradient-to-br from-gray-900 to-navy-800"
     >
       {/* Animated Background */}
       <motion.div
@@ -43,7 +43,6 @@ export default function About() {
         </div>
 
         {/* Cards Container */}
-        <div className='Flexbox'>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-7xl mx-auto">
           {/* Education Card */}
           <motion.div 
@@ -53,7 +52,7 @@ export default function About() {
           >
             <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
               <div className="p-2 sm:p-3 bg-blue-500/10 rounded-lg">
-                <GraduationCap className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" />
+                <GraduationCap className="text-blue-500 w-5 h-5 sm:w-6 sm:h-6" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Education</h3>
             </div>
@@ -63,14 +62,14 @@ export default function About() {
                 <h4 className="text-base sm:text-lg md:text-xl font-semibold text-white mb-1 sm:mb-2">
                   B.E in Computer Engineering
                 </h4>
-                <p className="text-gray-300 text-sm sm:text-base">
+                <p className="text-gray-400 text-sm sm:text-base">
                   Saffrony Institute of Technology
                 </p>
                 <p className="text-gray-400 text-xs sm:text-sm mt-1">
                   Expected Graduation: May 2025
                 </p>
                 <div className="mt-3 sm:mt-4 inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-500/10 rounded-lg">
-                  <p className="text-blue-400 font-semibold text-sm sm:text-base">
+                  <p className="text-blue-500 font-semibold text-sm sm:text-base">
                     CGPA: 8.89/10.00
                   </p>
                 </div>
@@ -86,7 +85,7 @@ export default function About() {
           >
             <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
               <div className="p-2 sm:p-3 bg-blue-500/10 rounded-lg">
-                <Award className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" />
+                <Award className="text-blue-500 w-5 h-5 sm:w-6 sm:h-6" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Achievements</h3>
             </div>
@@ -119,7 +118,7 @@ export default function About() {
           >
             <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
               <div className="p-2 sm:p-3 bg-blue-500/10 rounded-lg">
-                <Award className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" />
+                <Award className="text-blue-500 w-5 h-5 sm:w-6 sm:h-6" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
                 Certifications
@@ -144,7 +143,6 @@ export default function About() {
               ))}
             </ul>
           </motion.div>
-        </div>
         </div>
       </motion.div>
     </section>
