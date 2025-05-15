@@ -57,11 +57,6 @@ export default function Contact() {
                 href: "mailto:snehpatel0308@gmail.com",
               },
               {
-                Icon: Phone,
-                text: "+91-8320672038",
-                href: "tel:+918320672038",
-              },
-              {
                 Icon: MapPin,
                 text: "Ahmedabad, Gujarat",
                 href: "#",
